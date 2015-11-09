@@ -2,13 +2,13 @@
 
 // Returns nicely formatted date and time.
 function formattedTime() {
-	return "<div>" . date("H:i") . "</div>";
+	return "\t<div>" . date("H:i") . "</div>\n";
 }
 
 // Returns a table row showing timezone information.
 function timezone($place, $tz, $x, $y) {
-	$html = '<div style="position: absolute; top: ' . $y . 'px; left: ' . $x . 'px;">' . "\n";
-	$html .= "<div>" . $place . "</div>\n";
+	$html .= '<div style="position: absolute; top: ' . $y . 'px; left: ' . $x . 'px;">' . "\n";
+	$html .= "\t<div>" . $place . "</div>\n";
 	date_default_timezone_set($tz);
 	$html .= formattedTime();
 	$html .= "</div>\n";
@@ -39,7 +39,6 @@ echo timezone("Norway", "Europe/Oslo", 470, 50);
 echo timezone("Tokyo", "Asia/Tokyo", 900, 170);
 
 echo "</div>\n";
-
-echo "</html>\n";
 echo "</body>\n";
+echo "</html>\n";
 ?>
