@@ -14,7 +14,7 @@ Times themselves are calculated using the server's time, plus PHP's internal cod
 
 Motivation
 ==========
-World clocks are good, but customizable ones are great.  We usually only care about a few different timezones in a few different cities, and extra text makes things cluttered and hard to read.  In my case, I want to know the time where my relatives live.  So, we want to see only those timezones, and we want the geographical names to be those cities.  For example, my grandmother lives in Tennessee, which is in the same timezone as New York.  On some world clocks, "New York" would be displayed, but all I want to know is the time in Oak Ridge.  These scripts lets you decide what the place name should be.
+World clocks are good, but customizable ones are great.  We usually only care about a few different timezones in a few different cities, and extra text makes things cluttered and hard to read.  In my case, I want to know the time where my relatives live.  I want to see only those timezones, and I want the geographical names to be those cities.  For example, my grandmother lives in Tennessee, which is in the same timezone as New York.  On some world clocks, "New York" would be displayed, but why?  All I really want to know is the time in Oak Ridge.  These scripts lets you decide what the place name should be.
 
 
 Contact
