@@ -35,6 +35,7 @@ echo timezone("Seattle", "America/Los_Angeles", 30, 120);
 echo timezone("Los Alamos", "America/Denver", 55, 170);
 echo timezone("Grand Forks", "America/Chicago", 100, 115);
 echo timezone("Pittsburgh", "America/New_York", 175, 150);
+echo timezone("Oxford", "Europe/London", 420, 80);
 echo timezone("Norway", "Europe/Oslo", 470, 50);
 echo timezone("Tokyo", "Asia/Tokyo", 900, 170);
 

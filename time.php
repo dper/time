@@ -46,6 +46,7 @@ echo "</tr>\n";
 echo timezoneRow("Seattle", "America/Los_Angeles");
 echo timezoneRow("Los Alamos", "America/Denver");
 echo timezoneRow("Grand Forks", "America/Chicago");
+echo timezoneRow("Oxford", "Europe/London");
 echo timezoneRow("Pittsburgh", "America/New_York");
 echo timezoneRow("Norway", "Europe/Oslo");
 echo timezoneRow("Tokyo", "Asia/Tokyo");
