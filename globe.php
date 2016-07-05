@@ -34,9 +34,8 @@ echo '<div style="margin-left: auto; margin-right: auto; position: relative; bac
 echo timezone("Seattle", "America/Los_Angeles", 30, 120);
 echo timezone("Los Alamos", "America/Denver", 55, 170);
 echo timezone("Grand Forks", "America/Chicago", 100, 115);
-echo timezone("Pittsburgh", "America/New_York", 175, 150);
+echo timezone("Oak Ridge", "America/New_York", 175, 155);
 echo timezone("Oxford", "Europe/London", 420, 80);
-echo timezone("Norway", "Europe/Oslo", 470, 50);
 echo timezone("Tokyo", "Asia/Tokyo", 900, 170);
 
 echo "</div>\n";
